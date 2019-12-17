@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">TimeSchedule</string>
+
+    <string name="_1mon">1mon</string>
+    <string name="_1tues">1tues</string>
+    <string name="_1wednes">1wednes</string>
+    <string name="_1thurs">1thurs</string>
+    <string name="_1fri">1fri</string>
+
+    <string name="_1textview">TextView</string>
+    <string name="_2textview">TextView</string>
+    <string name="_3textview">TextView</string>
+    <string name="_4textview">TextView</string>
+    <string name="_5textview">TextView</string>
+    <string name="_6textview">TextView</string>
+    <string name="_7textview">TextView</string>
+    <string name="_8textview">TextView</string>
+    <string name="_9textview">TextView</string>
+    <string name="_10textview">TextView</string>
+    <string name="_11textview">TextView</string>
+    <string name="_12textview">TextView</string>
+    <string name="_13textview">TextView</string>
+    <string name="_14textview">TextView</string>
+    <string name="_15textview">TextView</string>
+    <string name="_16textview">TextView</string>
+    <string name="_17textview">TextView</string>
+    <string name="_18textview">TextView</string>
+    <string name="_19textview">TextView</string>
+    <string name="_20textview">TextView</string>
+
+
+
+    <string name="button">Button</string>
+    <string name="title_home" />
+    <string name="title_dashboard" />
+    <string name="title_notifications" />
+    <string name="returnbutton">returnButton</string>
+    <string name="todo">TODO</string>
+    <string name="img_description1">image1</string>
+    <string name="_kamoku">TextView</string>
+    <string name="_tantou">TextView</string>
+    <string name="_basyo">TextView</string>
+
+
+</resources>
