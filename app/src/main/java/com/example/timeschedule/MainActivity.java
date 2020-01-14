@@ -11,15 +11,50 @@ import android.widget.TextView;
 
 public class MainActivity extends Activity {
 
+
+    static TextView textview1;
+    static TextView textview2;
+    static TextView textview3;
+    static TextView textview4;
+    static TextView textview5;
+
+    static TextView textview6;
+    static TextView textview7;
+    static TextView textview8;
+    static TextView textview9;
+    static TextView textview10;
+
+    static TextView textview11;
+    static TextView textview12;
+    static TextView textview13;
+    static TextView textview14;
+    static TextView textview15;
+
+    static TextView textview16;
+    static TextView textview17;
+    static TextView textview18;
+    static TextView textview19;
+    static TextView textview20;
+
+    static TextView textview21;
+    static TextView textview22;
+    static TextView textview23;
+    static TextView textview24;
+    static TextView textview25;
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        TextView textview1 = findViewById(R.id.text1);
+
+         textview1 = findViewById(R.id.text1);
         textview1.setOnClickListener((View v) -> {
                 startActivity(new Intent(this, SubActivity.class));
-
+                String str = "";
+                intent.putExtra()
             });
 
         TextView textview2 = findViewById(R.id.text2);
@@ -143,7 +178,5 @@ public class MainActivity extends Activity {
             startActivity(new Intent(this, SubActivity.class));
 
         });
-
-
         }
 }
