@@ -40,6 +40,16 @@
     <string name="_kamoku">TextView</string>
     <string name="_tantou">TextView</string>
     <string name="_basyo">TextView</string>
+    <string name="tani">TextView</string>
+    <string name="textview">TextView</string>
+    <string name="tantou">担当</string>
+    <string name="basyo">場所</string>
+    <string name="kamoku">科目</string>
+    <string name="tanni">単位</string>
+    <string name="tantou1">Name</string>
+    <string name="basyo1">Name</string>
+    <string name="kamoku1">Name</string>
+    <string name="tanni1">Name</string>
 
 
 </resources>

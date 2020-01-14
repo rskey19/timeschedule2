@@ -10,20 +10,27 @@
         android:id="@+id/tableLayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:padding="1dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.38"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
+
         <TableRow
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp">
+
 
             <TextView
                 android:id="@+id/textView39"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:background="@drawable/border"
+                android:layout_marginRight="1dp"
                 android:text="時限/曜日" />
 
             <TextView
@@ -31,7 +38,9 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@drawable/border"
                 android:gravity="center_horizontal"
+                android:layout_marginRight="1dp"
                 android:text="月"
                 android:textColor="@color/design_default_color_primary" />
 
@@ -40,7 +49,9 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@drawable/border"
                 android:gravity="center_horizontal"
+                android:layout_marginRight="1dp"
                 android:text="火"
                 android:textColor="@android:color/holo_red_light" />
 
@@ -49,7 +60,9 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@drawable/border"
                 android:gravity="center_horizontal"
+                android:layout_marginRight="1dp"
                 android:text="水"
                 android:textColor="@android:color/holo_blue_bright" />
 
@@ -59,6 +72,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center_horizontal"
+                android:background="@drawable/border"
+                android:layout_marginRight="1dp"
                 android:text="木"
                 android:textColor="@android:color/holo_green_dark" />
 
@@ -68,19 +83,23 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center_horizontal"
+                android:background="@drawable/border"
                 android:text="金"
                 android:textColor="@android:color/holo_orange_light" />
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:layout_marginBottom="1dp">
 
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="wrap_content"
                 android:layout_height="100dp"
                 android:gravity="center_horizontal"
+                android:background="@drawable/border"
+                android:layout_marginRight="1dp"
                 android:text="１限目"
                 android:textColor="@android:color/holo_orange_dark" />
 
@@ -89,6 +108,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="@drawable/border"
+                android:layout_marginRight="1dp"
                 android:text="@string/_1mon" />
 
             <TextView
@@ -96,6 +117,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="@drawable/border"
+                android:layout_marginRight="1dp"
                 android:text="@string/_1tues" />
 
             <TextView
@@ -103,6 +126,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="@drawable/border"
+                android:layout_marginRight="1dp"
                 android:text="@string/_1wednes" />
 
             <TextView
@@ -110,6 +135,8 @@
                 android:layout_width="57dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="@drawable/border"
+                android:layout_marginRight="1dp"
                 android:text="@string/_1thurs" />
 
             <TextView
@@ -117,19 +144,24 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="@drawable/border"
                 android:text="@string/_1fri" />
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+
+            android:layout_marginBottom="1dp">
 
             <TextView
                 android:id="@+id/textView15"
                 android:layout_width="wrap_content"
                 android:layout_height="100dp"
                 android:gravity="center_horizontal"
+                android:layout_marginRight="1dp"
                 android:text="２限目"
+                android:background="@drawable/border"
                 android:textColor="@android:color/holo_orange_dark" />
 
             <TextView
@@ -137,6 +169,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:layout_marginRight="1dp"
+                android:background="@drawable/border"
                 android:text="@string/_1textview" />
 
             <TextView
@@ -144,6 +178,8 @@
                 android:layout_width="58dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:layout_marginRight="1dp"
+                android:background="@drawable/border"
                 android:text="@string/_2textview" />
 
             <TextView
@@ -151,6 +187,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:layout_marginRight="1dp"
+                android:background="@drawable/border"
                 android:text="@string/_3textview" />
 
             <TextView
@@ -158,6 +196,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:layout_marginRight="1dp"
+                android:background="@drawable/border"
                 android:text="@string/_4textview" />
 
             <TextView
@@ -165,18 +205,22 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="@drawable/border"
                 android:text="@string/_5textview" />
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="127dp">
+            android:layout_height="127dp"
+            android:layout_marginBottom="1dp">
 
             <TextView
                 android:id="@+id/textView21"
                 android:layout_width="wrap_content"
                 android:layout_height="100dp"
                 android:gravity="center_horizontal"
+                android:layout_marginRight="1dp"
+                android:background="@drawable/border"
                 android:text="３限目"
                 android:textColor="@android:color/holo_orange_dark" />
 
@@ -185,6 +229,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:layout_marginRight="1dp"
+                android:background="@drawable/border"
                 android:text="@string/_6textview" />
 
             <TextView
@@ -192,6 +238,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:layout_marginRight="1dp"
+                android:background="@drawable/border"
                 android:text="@string/_7textview" />
 
             <TextView
@@ -199,6 +247,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:layout_marginRight="1dp"
+                android:background="@drawable/border"
                 android:text="@string/_8textview" />
 
             <TextView
@@ -206,6 +256,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:layout_marginRight="1dp"
+                android:background="@drawable/border"
                 android:text="@string/_9textview" />
 
             <TextView
@@ -213,18 +265,22 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="@drawable/border"
                 android:text="@string/_10textview" />
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:layout_marginBottom="1dp">
 
             <TextView
                 android:id="@+id/textView27"
                 android:layout_width="wrap_content"
                 android:layout_height="100dp"
                 android:gravity="center_horizontal"
+                android:layout_marginRight="1dp"
+                android:background="@drawable/border"
                 android:text="４限目"
                 android:textColor="@android:color/holo_orange_dark" />
 
@@ -233,6 +289,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:layout_marginRight="1dp"
+                android:background="@drawable/border"
                 android:text="@string/_11textview" />
 
             <TextView
@@ -240,6 +298,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:layout_marginRight="1dp"
+                android:background="@drawable/border"
                 android:text="@string/_12textview" />
 
             <TextView
@@ -247,6 +307,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:layout_marginRight="1dp"
+                android:background="@drawable/border"
                 android:text="@string/_13textview" />
 
             <TextView
@@ -254,6 +316,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:layout_marginRight="1dp"
+                android:background="@drawable/border"
                 android:text="@string/_14textview" />
 
             <TextView
@@ -261,18 +325,22 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="@drawable/border"
                 android:text="@string/_15textview" />
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:layout_marginBottom="1dp">
 
             <TextView
                 android:id="@+id/textView33"
                 android:layout_width="wrap_content"
                 android:layout_height="100dp"
                 android:gravity="center_horizontal"
+                android:layout_marginRight="1dp"
+                android:background="@drawable/border"
                 android:text="５限目"
                 android:textColor="@android:color/holo_orange_dark" />
 
@@ -281,6 +349,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:layout_marginRight="1dp"
+                android:background="@drawable/border"
                 android:text="@string/_16textview" />
 
             <TextView
@@ -288,6 +358,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:layout_marginRight="1dp"
+                android:background="@drawable/border"
                 android:text="@string/_17textview" />
 
             <TextView
@@ -295,6 +367,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:layout_marginRight="1dp"
+                android:background="@drawable/border"
                 android:text="@string/_18textview" />
 
             <TextView
@@ -302,6 +376,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:layout_marginRight="1dp"
+                android:background="@drawable/border"
                 android:text="@string/_19textview" />
 
             <TextView
@@ -309,6 +385,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="@drawable/border"
                 android:text="@string/_20textview" />
         </TableRow>
     </TableLayout>
