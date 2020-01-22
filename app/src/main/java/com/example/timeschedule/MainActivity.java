@@ -2,47 +2,62 @@ package com.example.timeschedule;
 
 
 import android.app.Activity;
+import android.app.Notification;
+import android.app.NotificationManager;
+import android.app.PendingIntent;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import androidx.core.app.NotificationCompat;
+
+import java.util.Calendar;
+
+import static android.provider.AlarmClock.EXTRA_MESSAGE;
+
 
 public class MainActivity extends Activity {
 
 
-    static TextView textview1;
-    static TextView textview2;
-    static TextView textview3;
-    static TextView textview4;
-    static TextView textview5;
+    private TextView mon;
+    private TextView mon1;
+    private TextView mon2;
+    private TextView mon3;
+    private TextView mon4;
+    private TextView mon5;
 
-    static TextView textview6;
-    static TextView textview7;
-    static TextView textview8;
-    static TextView textview9;
-    static TextView textview10;
+    private TextView tues;
+    private TextView tues1;
+    private TextView tues2;
+    private TextView tues3;
+    private TextView tues4;
+    private TextView tues5;
 
-    static TextView textview11;
-    static TextView textview12;
-    static TextView textview13;
-    static TextView textview14;
-    static TextView textview15;
+    private TextView wend;
+    private TextView wend1;
+    private TextView wend2;
+    private TextView wend3;
+    private TextView wend4;
+    private TextView wend5;
 
-    static TextView textview16;
-    static TextView textview17;
-    static TextView textview18;
-    static TextView textview19;
-    static TextView textview20;
+    private TextView thurs;
+    private TextView thurs1;
+    private TextView thurs2;
+    private TextView thurs3;
+    private TextView thurs4;
+    private TextView thurs5;
 
-    static TextView textview21;
-    static TextView textview22;
-    static TextView textview23;
-    static TextView textview24;
-    static TextView textview25;
+    private TextView fri;
+    private TextView fri1;
+    private TextView fri2;
+    private TextView fri3;
+    private TextView fri4;
+    private TextView fri5;
 
-
+    private static final int REQUEST_DATA =4;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,133 +65,142 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
 
 
-         textview1 = findViewById(R.id.text1);
-        textview1.setOnClickListener((View v) -> {
-                startActivity(new Intent(this, SubActivity.class));
-                String str = "";
-                intent.putExtra()
-            });
-
+        TextView textview1 = findViewById(R.id.text1);
         TextView textview2 = findViewById(R.id.text2);
-        textview2.setOnClickListener((View v) -> {
-            startActivity(new Intent(this, SubActivity.class));
-
-        });
-
         TextView textview3 = findViewById(R.id.text3);
-        textview3.setOnClickListener((View v) -> {
-            startActivity(new Intent(this, SubActivity.class));
-
-        });
         TextView textview4 = findViewById(R.id.text4);
-        textview4.setOnClickListener((View v) -> {
-            startActivity(new Intent(this, SubActivity.class));
-
-        });
         TextView textview5 = findViewById(R.id.text5);
-        textview5.setOnClickListener((View v) -> {
-            startActivity(new Intent(this, SubActivity.class));
-
-        });
         TextView textview6 = findViewById(R.id.text6);
-        textview6.setOnClickListener((View v) -> {
-            startActivity(new Intent(this, SubActivity.class));
-
-        });
         TextView textview7 = findViewById(R.id.text7);
-        textview7.setOnClickListener((View v) -> {
-            startActivity(new Intent(this, SubActivity.class));
-
-        });
         TextView textview8 = findViewById(R.id.text8);
-        textview8.setOnClickListener((View v) -> {
-            startActivity(new Intent(this, SubActivity.class));
-
-        });
         TextView textview9 = findViewById(R.id.text9);
-        textview9.setOnClickListener((View v) -> {
-            startActivity(new Intent(this, SubActivity.class));
-
-        });
         TextView textview10 = findViewById(R.id.text10);
-        textview10.setOnClickListener((View v) -> {
-            startActivity(new Intent(this, SubActivity.class));
 
-        });
+
         TextView textview11 = findViewById(R.id.text11);
-        textview11.setOnClickListener((View v) -> {
-            startActivity(new Intent(this, SubActivity.class));
-
-        });
         TextView textview12 = findViewById(R.id.text12);
-        textview12.setOnClickListener((View v) -> {
-            startActivity(new Intent(this, SubActivity.class));
-
-        });
         TextView textview13 = findViewById(R.id.text13);
-        textview13.setOnClickListener((View v) -> {
-            startActivity(new Intent(this, SubActivity.class));
-
-        });
         TextView textview14 = findViewById(R.id.text14);
-        textview14.setOnClickListener((View v) -> {
-            startActivity(new Intent(this, SubActivity.class));
-
-        });
         TextView textview15 = findViewById(R.id.text15);
-        textview15.setOnClickListener((View v) -> {
-            startActivity(new Intent(this, SubActivity.class));
-
-        });
         TextView textview16 = findViewById(R.id.text16);
-        textview16.setOnClickListener((View v) -> {
-            startActivity(new Intent(this, SubActivity.class));
-
-        });
         TextView textview17 = findViewById(R.id.text17);
-        textview17.setOnClickListener((View v) -> {
-            startActivity(new Intent(this, SubActivity.class));
-
-        });
         TextView textview18 = findViewById(R.id.text18);
-        textview18.setOnClickListener((View v) -> {
-            startActivity(new Intent(this, SubActivity.class));
-
-        });
         TextView textview19 = findViewById(R.id.text16);
-        textview19.setOnClickListener((View v) -> {
-            startActivity(new Intent(this, SubActivity.class));
-
-        });
         TextView textview20 = findViewById(R.id.text20);
-        textview20.setOnClickListener((View v) -> {
-            startActivity(new Intent(this, SubActivity.class));
 
-        });
+
         TextView textview21 = findViewById(R.id.text21);
-        textview21.setOnClickListener((View v) -> {
-            startActivity(new Intent(this, SubActivity.class));
-
-        });
         TextView textview22 = findViewById(R.id.text22);
-        textview22.setOnClickListener((View v) -> {
-            startActivity(new Intent(this, SubActivity.class));
-
-        });
         TextView textview23 = findViewById(R.id.text23);
-        textview23.setOnClickListener((View v) -> {
-            startActivity(new Intent(this, SubActivity.class));
-
-        });
         TextView textview24 = findViewById(R.id.text24);
-        textview24.setOnClickListener((View v) -> {
-            startActivity(new Intent(this, SubActivity.class));
-
-        });
         TextView textview25 = findViewById(R.id.text25);
-        textview25.setOnClickListener((View v) -> {
-            startActivity(new Intent(this, SubActivity.class));
 
-        });
+
+        View.OnClickListener listener = v -> {
+            Intent intent = new Intent(MainActivity.this, SubActivity.class);
+            if (v.getId() == R.id.text) {
+                startActivityForResult(intent, 1);
+            } else if (v.getId() == R.id.text2) {
+                startActivityForResult(intent, 2);
+            } else if (v.getId() == R.id.text3) {
+                startActivityForResult(intent, 3);
+            } else if (v.getId() == R.id.text4) {
+                startActivityForResult(intent, 4);
+            } else if (v.getId() == R.id.text5) {
+                startActivityForResult(intent, 5);
+
+            } else if (v.getId() == R.id.text6) {
+                startActivityForResult(intent, 6);
+            } else if (v.getId() == R.id.text7) {
+                startActivityForResult(intent, 7);
+            } else if (v.getId() == R.id.text8) {
+                startActivityForResult(intent, 8);
+            } else if (v.getId() == R.id.text9) {
+                startActivityForResult(intent, 9);
+            } else if (v.getId() == R.id.text10) {
+                startActivityForResult(intent, 10);
+
+            } else if (v.getId() == R.id.text11) {
+                startActivityForResult(intent, 11);
+            } else if (v.getId() == R.id.text12) {
+                startActivityForResult(intent, 12);
+            } else if (v.getId() == R.id.text13) {
+                startActivityForResult(intent, 13);
+            } else if (v.getId() == R.id.text14) {
+                startActivityForResult(intent, 14);
+            } else if (v.getId() == R.id.text15) {
+                startActivityForResult(intent, 15);
+
+            } else if (v.getId() == R.id.text16) {
+                startActivityForResult(intent, 16);
+            } else if (v.getId() == R.id.text17) {
+                startActivityForResult(intent, 17);
+            } else if (v.getId() == R.id.text18) {
+                startActivityForResult(intent, 18);
+            } else if (v.getId() == R.id.text19) {
+                startActivityForResult(intent, 19);
+            } else if (v.getId() == R.id.text20) {
+                startActivityForResult(intent, 20);
+
+            } else if (v.getId() == R.id.text21) {
+                startActivityForResult(intent, 21);
+            } else if (v.getId() == R.id.text22) {
+                startActivityForResult(intent, 22);
+            } else if (v.getId() == R.id.text23) {
+                startActivityForResult(intent, 23);
+            } else if (v.getId() == R.id.text24) {
+                startActivityForResult(intent, 24);
+            } else if (v.getId() == R.id.text25) {
+                startActivityForResult(intent, 25);
+            }
+        };
+
+            textview1.setOnClickListener(listener);
+            textview2.setOnClickListener(listener);
+            textview3.setOnClickListener(listener);
+            textview4.setOnClickListener(listener);
+            textview5.setOnClickListener(listener);
+            textview6.setOnClickListener(listener);
+            textview7.setOnClickListener(listener);
+            textview8.setOnClickListener(listener);
+            textview9.setOnClickListener(listener);
+            textview10.setOnClickListener(listener);
+
+            textview11.setOnClickListener(listener);
+            textview12.setOnClickListener(listener);
+            textview13.setOnClickListener(listener);
+            textview14.setOnClickListener(listener);
+            textview15.setOnClickListener(listener);
+            textview16.setOnClickListener(listener);
+            textview17.setOnClickListener(listener);
+            textview18.setOnClickListener(listener);
+            textview19.setOnClickListener(listener);
+            textview20.setOnClickListener(listener);
+
+            textview21.setOnClickListener(listener);
+            textview22.setOnClickListener(listener);
+            textview23.setOnClickListener(listener);
+            textview24.setOnClickListener(listener);
+            textview25.setOnClickListener(listener);
+        };
+    }
+
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, Intent data){
+        TextView textview1 = findViewById(R.id.text1);
+        switch(requestCode) {
+            case(REQUEST_DATA):
+                if(resultCode == RESULT_OK){
+                    textview1.setText(data.getStringExtra("edit1"));
+                }else if(resultCode == RESULT_CANCELED){
+                    //キャンセルボタンを押して戻ってきたときの処理
+                }else{
+                    //その他
+                }
+                break;
+            default:
+                break;
         }
+    }
 }
+
