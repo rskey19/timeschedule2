@@ -34,7 +34,7 @@
     <string name="title_home" />
     <string name="title_dashboard" />
     <string name="title_notifications" />
-    <string name="returnbutton">returnButton</string>
+    <string name="returnbutton">戻る</string>
     <string name="todo">TODO</string>
     <string name="img_description1">image1</string>
     <string name="_kamoku">TextView</string>
@@ -46,11 +46,12 @@
     <string name="basyo">場所</string>
     <string name="kamoku">科目</string>
     <string name="tanni">単位</string>
+    <string name="iro">色</string>
     <string name="tantou1">Name</string>
     <string name="basyo1">Name</string>
     <string name="kamoku1">Name</string>
-    <string name="tanni1">Name</string>
-    <string name="kakutei">kakutei</string>
+    <string name="tanni1">Number</string>
+    <string name="kakutei">決定</string>
 
 
 </resources>

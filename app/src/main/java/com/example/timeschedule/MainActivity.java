@@ -291,6 +291,7 @@ public class MainActivity extends Activity {
                 }else{
                     //その他
                 }
+                break;
 
 
             case(8):
@@ -369,6 +370,7 @@ public class MainActivity extends Activity {
                     //その他
                 }
                 break;
+
             case(15):
                 if(resultCode == RESULT_OK){
                     textview15.setText(str);

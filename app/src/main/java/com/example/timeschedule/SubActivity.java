@@ -17,9 +17,6 @@ public class SubActivity extends Activity {
     private EditText edittext3;
     private String message;
 
-
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
@@ -27,10 +24,11 @@ public class SubActivity extends Activity {
         setContentView(R.layout.activity_sub);
 
         Button returnButton = findViewById(R.id.returnButton);
-        //文字列取得（科目、担当、場所）
+        //文字列取得（科目、担当、場所、単位）
         edittext1 = (EditText) findViewById(R.id.editText1);
         edittext2 = (EditText) findViewById(R.id.editText2);
         edittext3 = (EditText) findViewById(R.id.editText3);
+
 
 
         returnButton.setOnClickListener((View view2)->{
@@ -43,6 +41,7 @@ public class SubActivity extends Activity {
             String kyoka = edittext1.getText().toString();
             String tanto = edittext2.getText().toString();
             String basyo = edittext3.getText().toString();
+
 
             intent.putExtra("edit1", kyoka);
             intent.putExtra("edit2", tanto);

@@ -117,47 +117,42 @@
 
             <TextView
                 android:id="@+id/text1"
-                android:layout_width="wrap_content"
+                android:layout_width="67dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:background="@drawable/border"
                 android:layout_marginRight="1dp"
-                android:text="@string/_1mon" />
+                android:layout_weight="1"
+                android:background="@drawable/border" />
 
             <TextView
                 android:id="@+id/text2"
-                android:layout_width="wrap_content"
+                android:layout_width="67dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:background="@drawable/border"
                 android:layout_marginRight="1dp"
-                android:text="@string/_1tues" />
+                android:layout_weight="1"
+                android:background="@drawable/border" />
 
             <TextView
                 android:id="@+id/text3"
-                android:layout_width="wrap_content"
+                android:layout_width="67dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:background="@drawable/border"
                 android:layout_marginRight="1dp"
-                android:text="@string/_1wednes" />
+                android:layout_weight="1"
+                android:background="@drawable/border" />
 
             <TextView
                 android:id="@+id/text4"
-                android:layout_width="57dp"
+                android:layout_width="67dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:background="@drawable/border"
                 android:layout_marginRight="1dp"
-                android:text="@string/_1thurs" />
+                android:layout_weight="1"
+                android:background="@drawable/border" />
 
             <TextView
                 android:id="@+id/text5"
-                android:layout_width="wrap_content"
+                android:layout_width="67dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="@drawable/border"
-                android:text="@string/_1fri" />
+                android:background="@drawable/border" />
         </TableRow>
 
         <TableRow
@@ -180,45 +175,40 @@
                 android:id="@+id/text6"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
                 android:layout_marginRight="1dp"
-                android:background="@drawable/border"
-                android:text="@string/_1textview" />
+                android:layout_weight="1"
+                android:background="@drawable/border" />
 
             <TextView
                 android:id="@+id/text7"
-                android:layout_width="58dp"
+                android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
                 android:layout_marginRight="1dp"
-                android:background="@drawable/border"
-                android:text="@string/_2textview" />
+                android:layout_weight="1"
+                android:background="@drawable/border" />
 
             <TextView
                 android:id="@+id/text8"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
                 android:layout_marginRight="1dp"
-                android:background="@drawable/border"
-                android:text="@string/_3textview" />
+                android:layout_weight="1"
+                android:background="@drawable/border" />
 
             <TextView
                 android:id="@+id/text9"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
                 android:layout_marginRight="1dp"
-                android:background="@drawable/border"
-                android:text="@string/_4textview" />
+                android:layout_weight="1"
+                android:background="@drawable/border" />
 
             <TextView
                 android:id="@+id/text10"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="@drawable/border"
-                android:text="@string/_5textview" />
+                android:background="@drawable/border" />
         </TableRow>
 
         <TableRow
@@ -240,45 +230,40 @@
                 android:id="@+id/text11"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
                 android:layout_marginRight="1dp"
-                android:background="@drawable/border"
-                android:text="@string/_6textview" />
+                android:layout_weight="1"
+                android:background="@drawable/border" />
 
             <TextView
                 android:id="@+id/text12"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
                 android:layout_marginRight="1dp"
-                android:background="@drawable/border"
-                android:text="@string/_7textview" />
+                android:layout_weight="1"
+                android:background="@drawable/border" />
 
             <TextView
                 android:id="@+id/text13"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
                 android:layout_marginRight="1dp"
-                android:background="@drawable/border"
-                android:text="@string/_8textview" />
+                android:layout_weight="1"
+                android:background="@drawable/border" />
 
             <TextView
                 android:id="@+id/text14"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
                 android:layout_marginRight="1dp"
-                android:background="@drawable/border"
-                android:text="@string/_9textview" />
+                android:layout_weight="1"
+                android:background="@drawable/border" />
 
             <TextView
                 android:id="@+id/text15"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="@drawable/border"
-                android:text="@string/_10textview" />
+                android:background="@drawable/border" />
         </TableRow>
 
         <TableRow
@@ -300,45 +285,40 @@
                 android:id="@+id/text16"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
                 android:layout_marginRight="1dp"
-                android:background="@drawable/border"
-                android:text="@string/_11textview" />
+                android:layout_weight="1"
+                android:background="@drawable/border" />
 
             <TextView
                 android:id="@+id/text17"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
                 android:layout_marginRight="1dp"
-                android:background="@drawable/border"
-                android:text="@string/_12textview" />
+                android:layout_weight="1"
+                android:background="@drawable/border" />
 
             <TextView
                 android:id="@+id/text18"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
                 android:layout_marginRight="1dp"
-                android:background="@drawable/border"
-                android:text="@string/_13textview" />
+                android:layout_weight="1"
+                android:background="@drawable/border" />
 
             <TextView
                 android:id="@+id/text19"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
                 android:layout_marginRight="1dp"
-                android:background="@drawable/border"
-                android:text="@string/_14textview" />
+                android:layout_weight="1"
+                android:background="@drawable/border" />
 
             <TextView
                 android:id="@+id/text20"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="@drawable/border"
-                android:text="@string/_15textview" />
+                android:background="@drawable/border" />
         </TableRow>
 
         <TableRow
@@ -360,45 +340,40 @@
                 android:id="@+id/text21"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
                 android:layout_marginRight="1dp"
-                android:background="@drawable/border"
-                android:text="@string/_16textview" />
+                android:layout_weight="1"
+                android:background="@drawable/border" />
 
             <TextView
                 android:id="@+id/text22"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
                 android:layout_marginRight="1dp"
-                android:background="@drawable/border"
-                android:text="@string/_17textview" />
+                android:layout_weight="1"
+                android:background="@drawable/border" />
 
             <TextView
                 android:id="@+id/text23"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
                 android:layout_marginRight="1dp"
-                android:background="@drawable/border"
-                android:text="@string/_18textview" />
+                android:layout_weight="1"
+                android:background="@drawable/border" />
 
             <TextView
                 android:id="@+id/text24"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
                 android:layout_marginRight="1dp"
-                android:background="@drawable/border"
-                android:text="@string/_19textview" />
+                android:layout_weight="1"
+                android:background="@drawable/border" />
 
             <TextView
                 android:id="@+id/text25"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="@drawable/border"
-                android:text="@string/_20textview" />
+                android:background="@drawable/border" />
         </TableRow>
     </TableLayout>
 
