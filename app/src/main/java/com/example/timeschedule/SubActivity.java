@@ -31,9 +31,7 @@ public class SubActivity extends Activity {
 
 
 
-        returnButton.setOnClickListener((View view2)->{
-            finish();
-        });
+
 
         Button result =  findViewById(R.id.result_bt);
         result.setOnClickListener((View view3)-> {

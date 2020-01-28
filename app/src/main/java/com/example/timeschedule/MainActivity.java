@@ -270,6 +270,19 @@ public class MainActivity extends Activity {
                 break;
 
 
+            case(5):
+                if(resultCode == RESULT_OK){
+                    textview5.setText(str);
+
+                }else if(resultCode == RESULT_CANCELED){
+                    //キャンセルボタンを押して戻ってきたときの処理
+                }else{
+                    //その他
+                }
+                break;
+
+
+
             case(6):
                 if(resultCode == RESULT_OK){
                     textview6.setText(str);
@@ -384,7 +397,7 @@ public class MainActivity extends Activity {
 
             case(16):
                 if(resultCode == RESULT_OK){
-                    textview5.setText(str);
+                    textview16.setText(str);
 
                 }else if(resultCode == RESULT_CANCELED){
                     //キャンセルボタンを押して戻ってきたときの処理
@@ -407,6 +420,18 @@ public class MainActivity extends Activity {
 
             case(18):
                 if(resultCode == RESULT_OK){
+                    textview18.setText(str);
+
+                }else if(resultCode == RESULT_CANCELED){
+                    //キャンセルボタンを押して戻ってきたときの処理
+                }else{
+                    //その他
+                }
+                break;
+
+
+            case(19):
+                if(resultCode == RESULT_OK){
                     textview19.setText(str);
 
                 }else if(resultCode == RESULT_CANCELED){
@@ -415,6 +440,7 @@ public class MainActivity extends Activity {
                     //その他
                 }
                 break;
+
 
 
             case(20):
